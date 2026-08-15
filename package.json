@@ -1,0 +1,49 @@
+{
+  "name": "dsh-pixel-skin",
+  "version": "0.1.0",
+  "description": "8-bit pixel skin for the DeepSeek Harness web GUI: Fusion Pixel type, chunky CRT palette, hard-edged controls and scanlines.",
+  "type": "module",
+  "main": "lib/index.js",
+  "types": "lib/types/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./lib/types/index.d.ts",
+      "default": "./lib/index.js"
+    },
+    "./client": {
+      "types": "./lib/types/client/index.d.ts",
+      "default": "./lib/client.js"
+    },
+    "./package.json": "./package.json"
+  },
+  "dsh": {
+    "client": {
+      "platform": "web",
+      "inject": [
+        "@deepseek-ai/dsh-client-ui-theme",
+        "@deepseek-ai/dsh-client-ui-slots",
+        "@deepseek-ai/dsh-client-locale"
+      ]
+    }
+  },
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "watch": "node scripts/build.mjs --watch",
+    "favicon": "node scripts/pixelate-favicon.mjs",
+    "refresh": "node scripts/refresh-profile.mjs"
+  },
+  "files": [
+    "lib/index.js",
+    "lib/client.js",
+    "lib/types/**/*.d.ts",
+    "assets/fonts/fusion-pixel-12px-monospaced-sc.woff2",
+    "assets/fonts/fusion-pixel-12px-proportional-sc.woff2",
+    "assets/fonts/fusion-pixel-latin.woff2",
+    "assets/fonts/LICENSE.fusion-pixel.txt",
+    "LICENSE",
+    "README.md",
+    "THIRD_PARTY_NOTICES.md",
+    "README.zh.md"
+  ],
+  "license": "MIT"
+}

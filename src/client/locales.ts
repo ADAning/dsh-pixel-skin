@@ -1,0 +1,46 @@
+/** Settings-row copy. The settings shell supplies `t` through the standard locale seat. */
+export const zh = {
+  'settings.pixelSkin.title': '像素皮肤',
+  'settings.pixelSkin.enabled': '启用像素皮肤',
+  'settings.pixelSkin.scanline': '扫描线',
+  'settings.pixelSkin.scanline.off': '关',
+  'settings.pixelSkin.scanline.light': '轻',
+  'settings.pixelSkin.scanline.standard': '标准',
+  'settings.pixelSkin.cursor': '像素光标',
+  'settings.pixelSkin.on': '开',
+  'settings.pixelSkin.off': '关',
+  'settings.pixelSkin.vignette': 'CRT 暗角',
+  'settings.pixelSkin.font': '字体模式',
+  'settings.pixelSkin.font.hybrid': '混合易读',
+  'settings.pixelSkin.font.pure': '纯像素',
+  'settings.pixelSkin.palette': '配色',
+  'settings.pixelSkin.palette.retro': '复古绿',
+  'settings.pixelSkin.palette.cyberpunk': '赛博朋克',
+  'settings.pixelSkin.palette.sunset': '日落街机',
+  'settings.pixelSkin.palette.mono': '单色终端',
+  'settings.pixelSkin.reset': '恢复默认',
+} as const
+
+export const en = {
+  'settings.pixelSkin.title': 'Pixel skin',
+  'settings.pixelSkin.enabled': 'Enable pixel skin',
+  'settings.pixelSkin.scanline': 'Scanlines',
+  'settings.pixelSkin.scanline.off': 'Off',
+  'settings.pixelSkin.scanline.light': 'Light',
+  'settings.pixelSkin.scanline.standard': 'Standard',
+  'settings.pixelSkin.cursor': 'Pixel cursor',
+  'settings.pixelSkin.on': 'On',
+  'settings.pixelSkin.off': 'Off',
+  'settings.pixelSkin.vignette': 'CRT vignette',
+  'settings.pixelSkin.font': 'Font mode',
+  'settings.pixelSkin.font.hybrid': 'Readable',
+  'settings.pixelSkin.font.pure': 'All pixel',
+  'settings.pixelSkin.palette': 'Palette',
+  'settings.pixelSkin.palette.retro': 'Retro green',
+  'settings.pixelSkin.palette.cyberpunk': 'Cyberpunk',
+  'settings.pixelSkin.palette.sunset': 'Sunset arcade',
+  'settings.pixelSkin.palette.mono': 'Mono terminal',
+  'settings.pixelSkin.reset': 'Reset defaults',
+} as const
+
+export type PixelSkinSettingsKey = keyof typeof zh

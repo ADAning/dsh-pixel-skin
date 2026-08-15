@@ -1,0 +1,44 @@
+/** Settings-row copy. The settings shell supplies `t` through the standard locale seat. */
+export declare const zh: {
+    readonly 'settings.pixelSkin.title': "像素皮肤";
+    readonly 'settings.pixelSkin.enabled': "启用像素皮肤";
+    readonly 'settings.pixelSkin.scanline': "扫描线";
+    readonly 'settings.pixelSkin.scanline.off': "关";
+    readonly 'settings.pixelSkin.scanline.light': "轻";
+    readonly 'settings.pixelSkin.scanline.standard': "标准";
+    readonly 'settings.pixelSkin.cursor': "像素光标";
+    readonly 'settings.pixelSkin.on': "开";
+    readonly 'settings.pixelSkin.off': "关";
+    readonly 'settings.pixelSkin.vignette': "CRT 暗角";
+    readonly 'settings.pixelSkin.font': "字体模式";
+    readonly 'settings.pixelSkin.font.hybrid': "混合易读";
+    readonly 'settings.pixelSkin.font.pure': "纯像素";
+    readonly 'settings.pixelSkin.palette': "配色";
+    readonly 'settings.pixelSkin.palette.retro': "复古绿";
+    readonly 'settings.pixelSkin.palette.cyberpunk': "赛博朋克";
+    readonly 'settings.pixelSkin.palette.sunset': "日落街机";
+    readonly 'settings.pixelSkin.palette.mono': "单色终端";
+    readonly 'settings.pixelSkin.reset': "恢复默认";
+};
+export declare const en: {
+    readonly 'settings.pixelSkin.title': "Pixel skin";
+    readonly 'settings.pixelSkin.enabled': "Enable pixel skin";
+    readonly 'settings.pixelSkin.scanline': "Scanlines";
+    readonly 'settings.pixelSkin.scanline.off': "Off";
+    readonly 'settings.pixelSkin.scanline.light': "Light";
+    readonly 'settings.pixelSkin.scanline.standard': "Standard";
+    readonly 'settings.pixelSkin.cursor': "Pixel cursor";
+    readonly 'settings.pixelSkin.on': "On";
+    readonly 'settings.pixelSkin.off': "Off";
+    readonly 'settings.pixelSkin.vignette': "CRT vignette";
+    readonly 'settings.pixelSkin.font': "Font mode";
+    readonly 'settings.pixelSkin.font.hybrid': "Readable";
+    readonly 'settings.pixelSkin.font.pure': "All pixel";
+    readonly 'settings.pixelSkin.palette': "Palette";
+    readonly 'settings.pixelSkin.palette.retro': "Retro green";
+    readonly 'settings.pixelSkin.palette.cyberpunk': "Cyberpunk";
+    readonly 'settings.pixelSkin.palette.sunset': "Sunset arcade";
+    readonly 'settings.pixelSkin.palette.mono': "Mono terminal";
+    readonly 'settings.pixelSkin.reset': "Reset defaults";
+};
+export type PixelSkinSettingsKey = keyof typeof zh;
